@@ -152,6 +152,7 @@
 #if TARGET_OS_IPHONE
     label.contentsScale = [[UIScreen mainScreen] scale];
 #endif
+    label.contentsScale = [[UIScreen mainScreen] scale] * 10;
 
 	/** VERY USEFUL when trying to debug text issues:
 	label.backgroundColor = [UIColor colorWithRed:0.5 green:0 blue:0 alpha:0.5].CGColor;
